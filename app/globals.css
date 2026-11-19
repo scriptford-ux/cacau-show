@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --cs-brown: #3d1a0a;
+    --cs-orange: #f5a623;
+    --cs-red: #8b1a1a;
+    --cs-cream: #f5e6d3;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #fff8f0;
+    color: #1a1a1a;
+  }
+
+  /* Scrollbar styles */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #3d1a0a;
+    border-radius: 3px;
+  }
+}
+
+@layer components {
+  /* Logo font style */
+  .logo-font {
+    font-family: 'Playball', 'Cookie', 'Brush Script MT', 'Segoe Script', 'Great Vibes', cursive, Georgia, serif;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+  }
+
+  /* Price strikethrough */
+  .price-strike {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 0.85em;
+  }
+
+  /* Cacaus badge */
+  .cacaus-badge {
+    @apply inline-flex items-center gap-1 bg-cs-red text-white text-xs font-bold px-2 py-1 rounded-full;
+  }
+
+  /* Product card */
+  .product-card {
+    @apply bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-200;
+  }
+
+  /* Section title */
+  .section-title {
+    @apply text-2xl font-bold text-gray-900 mb-1;
+  }
+
+  .section-subtitle {
+    @apply text-sm text-gray-600 mb-4;
+  }
+
+  /* Btn primary */
+  .btn-primary {
+    @apply bg-cs-orange hover:bg-cs-orange-dark text-white font-bold py-3 px-6 rounded-xl transition-colors duration-200 flex items-center justify-center gap-2;
+  }
+
+  /* Btn outline */
+  .btn-outline {
+    @apply border-2 border-cs-brown text-cs-brown hover:bg-cs-brown hover:text-white font-bold py-2 px-4 rounded-xl transition-colors duration-200;
+  }
+
+  /* Quantity selector */
+  .qty-btn {
+    @apply w-8 h-8 flex items-center justify-center rounded-lg border border-gray-200 hover:border-cs-orange hover:text-cs-orange transition-colors font-bold text-lg;
+  }
+}
+
+@layer utilities {
+  /* Hide scrollbar but keep functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Text shadow for banners */
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  }
+}
+
+/* Carousel animations */
+.carousel-slide {
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Admin sidebar */
+.admin-nav-item {
+  @apply flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition-colors duration-150;
+}
+
+.admin-nav-item:hover {
+  @apply bg-white/10;
+}
+
+.admin-nav-item.active {
+  @apply bg-white text-cs-brown;
+}
+
+/* Chat widget bounce */
+@keyframes bounce-soft {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+.chat-widget {
+  animation: bounce-soft 2s ease-in-out infinite;
+}

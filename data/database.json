@@ -1,0 +1,438 @@
+{
+  "products": [
+    {
+      "id": "4",
+      "name": "Caixa de Tabletes com Pelúcia Livro dos Monstros Harry Potter 160g",
+      "slug": "caixa-tabletes-pelucia-livro-monstros-harry-potter-160g",
+      "description": "Caixa com tabletes de chocolate ao leite acompanhada de uma divertida pelúcia do Livro dos Monstros de Harry Potter.",
+      "price": 99.99,
+      "original_price": 109.99,
+      "image_url": "/images/produtos/harry-potter-clean.jpg",
+      "images": [
+        "/images/produtos/harry-potter-clean.jpg",
+        "/images/produtos/harry-potter-clean.jpg",
+        "/images/produtos/harry-potter-clean.jpg",
+        "/images/produtos/harry-potter-clean.jpg"
+      ],
+      "category_id": "5",
+      "stock": 20,
+      "cacaus_points": 8,
+      "active": true,
+      "featured": true,
+      "created_at": "2026-11-17T21:38:37.674Z",
+      "updated_at": "2026-11-17T21:38:37.674Z"
+    },
+    {
+      "id": "1",
+      "name": "Panettone laCreme ao Leite 650g",
+      "slug": "panettone-lacreme-ao-leite-650g",
+      "description": "Panettone artesanal com recheio cremoso de leite condensado. Uma explosão de sabor em cada fatia.",
+      "price": 69.99,
+      "original_price": 109.99,
+      "image_url": "/images/momentos/momento-natal.webp",
+      "images": [
+        "/images/momentos/momento-natal.webp"
+      ],
+      "category_id": "1",
+      "stock": 50,
+      "cacaus_points": 10,
+      "active": true,
+      "featured": true,
+      "created_at": "2026-11-17T21:38:37.674Z",
+      "updated_at": "2026-11-17T21:38:37.674Z"
+    },
+    {
+      "id": "2",
+      "name": "Panettone Mezzo 580g",
+      "slug": "panettone-mezzo-580g",
+      "description": "Panettone premium com mix de chocolates finos. Exclusivo Cacau Lovers.",
+      "price": 59.99,
+      "original_price": 89.99,
+      "image_url": "/images/momentos/momento-natal.webp",
+      "images": [
+        "/images/momentos/momento-natal.webp"
+      ],
+      "category_id": "1",
+      "stock": 35,
+      "cacaus_points": 8,
+      "active": true,
+      "featured": true,
+      "created_at": "2026-11-17T21:38:37.674Z",
+      "updated_at": "2026-11-17T21:38:37.674Z"
+    },
+    {
+      "id": "3",
+      "name": "Panettone Trufado Frutas 750g",
+      "slug": "panettone-trufado-frutas-750g",
+      "description": "Clássico panettone com frutas cristalizadas e trufas de chocolate. Momento Natal.",
+      "price": 79.99,
+      "original_price": 119.99,
+      "image_url": "/images/momentos/momento-natal.webp",
+      "images": [
+        "/images/momentos/momento-natal.webp"
+      ],
+      "category_id": "1",
+      "stock": 60,
+      "cacaus_points": 12,
+      "active": true,
+      "featured": true,
+      "created_at": "2026-11-17T21:38:37.674Z",
+      "updated_at": "2026-11-17T21:38:37.674Z"
+    },
+    {
+      "id": "10",
+      "name": "Tablete Miau de Chocolate ao Leite 70g",
+      "slug": "tablete-miau-de-chocolate-ao-leite-70g",
+      "description": "Delicie-se com o Chocolate Miau 70g da Cacau Show, nosso irresistível chocolate no formato de Língua de Gato!",
+      "price": 19.99,
+      "original_price": 22.29,
+      "image_url": "/images/produtos/tablete-miau-clean.png",
+      "images": [
+        "/images/produtos/tablete-miau-clean.png",
+        "/images/produtos/tablete-miau-clean.png"
+      ],
+      "category_id": "4",
+      "stock": 150,
+      "cacaus_points": 0,
+      "promo_badge": "O Segundo sai por R$10",
+      "brand": "laCreme",
+      "active": true,
+      "featured": true,
+      "created_at": "2026-11-17T21:38:37.674Z",
+      "updated_at": "2026-11-17T21:38:37.674Z"
+    },
+    {
+      "id": "11",
+      "name": "Tablete laCreme de Chocolate ao Leite 100g",
+      "slug": "tablete-lacreme-de-chocolate-ao-leite-100g",
+      "description": "O clássico tablete laCreme ao leite com textura aveludada e derretimento incomparável na boca.",
+      "price": 19.99,
+      "original_price": 21.29,
+      "image_url": "/images/momentos/momento-lacreme.webp",
+      "images": [
+        "/images/momentos/momento-lacreme.webp"
+      ],
+      "category_id": "4",
+      "stock": 120,
+      "cacaus_points": 0,
+      "promo_badge": "O Segundo sai por R$10",
+      "brand": "laCreme",
+      "active": true,
+      "featured": true,
+      "created_at": "2026-11-17T21:38:37.674Z",
+      "updated_at": "2026-11-17T21:38:37.674Z"
+    },
+    {
+      "id": "12",
+      "name": "Tablete laCreme Chocolate Branco 100g",
+      "slug": "tablete-lacreme-chocolate-branco-100g",
+      "description": "Tablete de chocolate branco laCreme com leite integral selecionado, incrivelmente cremoso.",
+      "price": 19.99,
+      "original_price": 21.29,
+      "image_url": "/images/momentos/momento-lacreme.webp",
+      "images": [
+        "/images/momentos/momento-lacreme.webp"
+      ],
+      "category_id": "4",
+      "stock": 90,
+      "cacaus_points": 0,
+      "promo_badge": "O Segundo sai por R$10",
+      "brand": "laCreme",
+      "active": true,
+      "featured": true,
+      "created_at": "2026-11-17T21:38:37.674Z",
+      "updated_at": "2026-11-17T21:38:37.674Z"
+    },
+    {
+      "id": "13",
+      "name": "Tablete laCreme Gianduia com Avelã 100g",
+      "slug": "tablete-lacreme-gianduia-com-avela-100g",
+      "description": "A nobre combinação de chocolate ao leite laCreme com pasta pura de avelã gianduia.",
+      "price": 19.99,
+      "original_price": 21.29,
+      "image_url": "/images/produtos/tablete-duo-intense.jpg",
+      "images": [
+        "/images/produtos/tablete-duo-intense.jpg"
+      ],
+      "category_id": "4",
+      "stock": 85,
+      "cacaus_points": 0,
+      "promo_badge": "O Segundo sai por R$10",
+      "brand": "laCreme",
+      "active": true,
+      "featured": true,
+      "created_at": "2026-11-17T21:38:37.674Z",
+      "updated_at": "2026-11-17T21:38:37.674Z"
+    },
+    {
+      "id": "15",
+      "name": "Tablete laCreme Duo Intense 100g",
+      "slug": "tablete-lacreme-duo-intense-100g",
+      "description": "Tablete laCreme Duo Intense combinando a intensidade do chocolate meio amargo com a extrema cremosidade laCreme.",
+      "price": 22.99,
+      "original_price": 24.49,
+      "image_url": "/images/produtos/tablete-duo-intense.jpg",
+      "images": [
+        "/images/produtos/tablete-duo-intense.jpg"
+      ],
+      "category_id": "4",
+      "stock": 100,
+      "cacaus_points": 2,
+      "promo_badge": "O Segundo sai por R$10",
+      "brand": "laCreme",
+      "active": true,
+      "featured": true,
+      "created_at": "2026-11-17T21:38:37.674Z",
+      "updated_at": "2026-11-17T21:38:37.674Z"
+    },
+    {
+      "id": "21",
+      "name": "Caixa de Bombons Mini Show laCreme ao Leite 108g",
+      "slug": "caixa-de-bombons-mini-show-lacreme-ao-leite-108g",
+      "description": "Bombons moldados em formato exclusivo com textura ultrafina e recheio de pura cremosidade laCreme.",
+      "price": 39.99,
+      "original_price": 42.49,
+      "image_url": "/images/marcas/marca-lacreme.jpg",
+      "images": [
+        "/images/marcas/marca-lacreme.jpg"
+      ],
+      "category_id": "3",
+      "stock": 45,
+      "cacaus_points": 2,
+      "promo_badge": "Desconto Progressivo",
+      "brand": "laCreme",
+      "active": true,
+      "featured": true,
+      "created_at": "2026-11-17T21:38:37.674Z",
+      "updated_at": "2026-11-17T21:38:37.674Z"
+    },
+    {
+      "id": "22",
+      "name": "Caixa de Bombons Mini Show laCreme Branco 108g",
+      "slug": "caixa-de-bombons-mini-show-lacreme-branco-108g",
+      "description": "Delicados bombons de chocolate branco com derretimento suave e textura irresistível.",
+      "price": 39.99,
+      "original_price": 42.49,
+      "image_url": "/images/marcas/marca-lacreme.jpg",
+      "images": [
+        "/images/marcas/marca-lacreme.jpg"
+      ],
+      "category_id": "3",
+      "stock": 40,
+      "cacaus_points": 2,
+      "promo_badge": "Desconto Progressivo",
+      "brand": "laCreme",
+      "active": true,
+      "featured": true,
+      "created_at": "2026-11-17T21:38:37.674Z",
+      "updated_at": "2026-11-17T21:38:37.674Z"
+    },
+    {
+      "id": "23",
+      "name": "Caixa de Bombons Mini Show Sortidos laCreme 108g",
+      "slug": "caixa-de-bombons-mini-show-sortidos-lacreme-108g",
+      "description": "O melhor de dois mundos: seleção especial de bombons ao leite e branco.",
+      "price": 39.99,
+      "original_price": 42.49,
+      "image_url": "/images/marcas/marca-bytes.jpg",
+      "images": [
+        "/images/marcas/marca-bytes.jpg"
+      ],
+      "category_id": "3",
+      "stock": 50,
+      "cacaus_points": 2,
+      "promo_badge": "Desconto Progressivo",
+      "brand": "laCreme",
+      "active": true,
+      "featured": true,
+      "created_at": "2026-11-17T21:38:37.674Z",
+      "updated_at": "2026-11-17T21:38:37.674Z"
+    },
+    {
+      "id": "5",
+      "name": "Trufa Premium Dark 70% 200g",
+      "slug": "trufa-premium-dark-70-200g",
+      "description": "Trufas artesanais com chocolate amargo 70% cacau. Elegância e sofisticação em cada pedaço.",
+      "price": 45.99,
+      "original_price": 65.99,
+      "image_url": "/images/marcas/marca-bendito-cacao.jpg",
+      "images": [
+        "/images/marcas/marca-bendito-cacao.jpg"
+      ],
+      "category_id": "2",
+      "stock": 40,
+      "cacaus_points": 6,
+      "active": true,
+      "featured": false,
+      "created_at": "2026-11-17T21:38:37.674Z",
+      "updated_at": "2026-11-17T21:38:37.674Z"
+    },
+    {
+      "id": "6",
+      "name": "Cesta Natal Premium",
+      "slug": "cesta-natal-premium",
+      "description": "Cesta especial de Natal com seleção dos melhores chocolates da CacauShow. O presente perfeito.",
+      "price": 189.99,
+      "original_price": 249.99,
+      "image_url": "/images/momentos/momento-natal.webp",
+      "images": [
+        "/images/momentos/momento-natal.webp"
+      ],
+      "category_id": "5",
+      "stock": 15,
+      "cacaus_points": 20,
+      "active": true,
+      "featured": false,
+      "created_at": "2026-11-17T21:38:37.674Z",
+      "updated_at": "2026-11-17T21:38:37.674Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Panettones",
+      "slug": "panettones",
+      "image_url": "/images/momentos/momento-natal.webp",
+      "active": true,
+      "created_at": "2026-11-17T21:38:37.672Z"
+    },
+    {
+      "id": "2",
+      "name": "Trufas",
+      "slug": "trufas",
+      "image_url": "/images/marcas/marca-lacreme.jpg",
+      "active": true,
+      "created_at": "2026-11-17T21:38:37.674Z"
+    },
+    {
+      "id": "3",
+      "name": "Bombons",
+      "slug": "bombons",
+      "image_url": "/images/marcas/marca-bytes.jpg",
+      "active": true,
+      "created_at": "2026-11-17T21:38:37.674Z"
+    },
+    {
+      "id": "4",
+      "name": "Tabletes",
+      "slug": "tabletes",
+      "image_url": "/images/produtos/tablete-miau-clean.png",
+      "active": true,
+      "created_at": "2026-11-17T21:38:37.674Z"
+    },
+    {
+      "id": "5",
+      "name": "Presentes",
+      "slug": "presentes",
+      "image_url": "/images/produtos/harry-potter-clean.jpg",
+      "active": true,
+      "created_at": "2026-11-17T21:38:37.674Z"
+    }
+  ],
+  "banners": [
+    {
+      "id": "1",
+      "title": "CHOCO FRIDAY CacauShow",
+      "subtitle": "Panettones 580g Mezzo, Doce de Leite com Banana ou Trufato Frutas - de R$ 99,99 por R$ 59,99",
+      "image_url": "/images/banners/hero-banner-1.jpg",
+      "link_url": "/categoria/panettones",
+      "button_text": "Compre agora",
+      "order_index": 1,
+      "active": true,
+      "section": "hero",
+      "created_at": "2026-11-17T21:38:37.674Z"
+    },
+    {
+      "id": "2",
+      "title": "Natal Cacau Show - Felicidade de presente pra você",
+      "subtitle": "Panettone laCreme Língua de Gato & Dreams Mil-Folhas recheados",
+      "image_url": "/images/banners/hero-banner-2.jpg",
+      "link_url": "/categoria/panettones",
+      "button_text": "Garanta já",
+      "order_index": 2,
+      "active": true,
+      "section": "hero",
+      "created_at": "2026-11-17T21:38:37.674Z"
+    },
+    {
+      "id": "3",
+      "title": "Aproveite os seus favoritos! R$ 15 OFF",
+      "subtitle": "R$ 15 OFF em compras acima de R$ 199. Bytes, laCreme, Biscoiteria e Trufas",
+      "image_url": "/images/banners/hero-banner-3.jpg",
+      "link_url": "/categoria/todos",
+      "button_text": "Compre já!",
+      "order_index": 3,
+      "active": true,
+      "section": "hero",
+      "created_at": "2026-11-17T21:38:37.674Z"
+    },
+    {
+      "id": "4",
+      "title": "Disney Mickey e Amigos - Coleção de Natal",
+      "subtitle": "Personagens que encantam. Presentes que fazem sonhar.",
+      "image_url": "/images/banners/hero-banner-4.jpg",
+      "link_url": "/categoria/presentes",
+      "button_text": "Aproveite",
+      "order_index": 4,
+      "active": true,
+      "section": "hero",
+      "created_at": "2026-11-17T21:38:37.674Z"
+    },
+    {
+      "id": "5",
+      "title": "A verdadeira magia da Cacau Show está aqui",
+      "subtitle": "Confirme se está navegando em nosso site oficial www.cacaushow.com.br",
+      "image_url": "/images/banners/hero-banner-5.jpg",
+      "link_url": "/sobre",
+      "button_text": "Saiba mais",
+      "order_index": 5,
+      "active": true,
+      "section": "hero",
+      "created_at": "2026-11-17T21:38:37.674Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1092",
+      "order_number": "#CS-1092",
+      "customer_name": "Mariana Alves Souza",
+      "customer_email": "mariana.souza@gmail.com",
+      "customer_phone": "(11) 98765-4321",
+      "shipping_address": {
+        "street": "Av. Paulista",
+        "number": "1578",
+        "complement": "Apto 82",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "zip_code": "01310-200"
+      },
+      "items": [
+        {
+          "id": "4",
+          "name": "Caixa de Tabletes com Pelúcia Livro dos Monstros Harry Potter 160g",
+          "price": 99.99,
+          "quantity": 1,
+          "image_url": "/images/produtos/harry-potter-clean.jpg"
+        },
+        {
+          "id": "10",
+          "name": "Tablete Miau de Chocolate ao Leite 70g",
+          "price": 19.99,
+          "quantity": 2,
+          "image_url": "/images/produtos/tablete-miau-clean.png"
+        }
+      ],
+      "total": 139.97,
+      "status": "paid",
+      "payment_method": "pix",
+      "created_at": "2026-11-17T21:20:37.675Z"
+    }
+  ],
+  "settings": {
+    "facebook_pixel_id": "",
+    "facebook_access_token": "",
+    "facebook_test_code": "",
+    "live_visitors_base": 0
+  }
+}
